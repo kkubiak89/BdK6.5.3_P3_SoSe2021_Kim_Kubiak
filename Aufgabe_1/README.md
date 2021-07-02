@@ -56,5 +56,5 @@ Jupyter Lab ist eine interaktive Arbeitsumgebung, um mit Jupyter Notebooks zu ar
 ## 5. Was ist der große Unterschied zwischen den Webframeworks flask und Django
 Flask und Django sind beides web frameworks die es dem Nutzer möglich machen Webapplikationen zu schreiben. Flask ist in seiner Nutzung eher minimalistisch und flexibler. Allerdings muss man in die Programmierung auch viel Eigenarbeit stecken. Bei django hingegen wird einem viel Arbeit abgenommen, es gibt eine vorstrukturierte App und ein Admin Panel. Dafür ist der Umgang mit django schwerer zu lernen als mit flask, eben weil es dort so viele Extras gibt. Weil flask so minimalistisch und flexibler im Umgang ist hat es auch den Ruf, dass es einfacher zu lernen sei.
 
-https://hackr.io/blog/flask-vs-django
-Python Flask Tutorial #0 - Flask vs. Django: https://www.youtube.com/watch?v=EGYpNQ3GL1Y
+* https://hackr.io/blog/flask-vs-django
+* Python Flask Tutorial #0 - Flask vs. Django: https://www.youtube.com/watch?v=EGYpNQ3GL1Y
