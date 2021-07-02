@@ -54,4 +54,7 @@ Das wird wohl daher kommen, da die Daten und Informationen nicht in columns und 
 Jupyter Lab ist eine interaktive Arbeitsumgebung, um mit Jupyter Notebooks zu arbeiten. Man kann mit diesem Programm aber auch auf das Terminal zugreifen und der Explorer ist sichtbar, wo man dann die genaue Umgebung der Dateien sieht. Dadurch, dass man das Terminal der Powershell auch doch Jupyter Lab öffnen kann und darin das Terminal an den Rand verschieben kann, kann man seine Dateien bearbeiten und diese dann direkt durch die Shell nach Github committen und pushen, ohne dass man nochmal extra eine Anwendung öffnen muss. Man kann mit Jupyter Lab auch andere Formate öffnen, wie zum Beispiel Bildformate .gif, .jpg, .png. Aber auch andere häufig benutzte Formate für Dokumente, nämlich .pdf. Wie eingangs schon erwähnt kann mit mit Jupyter Lab auch problemlos an den Jupyter Notebooks arbeiten, nur das Jupyter Lab noch diese zusätzlichen Funktionen hat.
 
 ## 5. Was ist der große Unterschied zwischen den Webframeworks flask und Django
-blank
+Flask und Django sind beides web frameworks die es dem Nutzer möglich machen Webapplikationen zu schreiben. Flask ist in seiner Nutzung eher minimalistisch und flexibler. Allerdings muss man in die Programmierung auch viel Eigenarbeit stecken. Bei django hingegen wird einem viel Arbeit abgenommen, es gibt eine vorstrukturierte App und ein Admin Panel. Dafür ist der Umgang mit django schwerer zu lernen als mit flask, eben weil es dort so viele Extras gibt. Weil flask so minimalistisch und flexibler im Umgang ist hat es auch den Ruf, dass es einfacher zu lernen sei.
+
+https://hackr.io/blog/flask-vs-django
+Python Flask Tutorial #0 - Flask vs. Django: https://www.youtube.com/watch?v=EGYpNQ3GL1Y
