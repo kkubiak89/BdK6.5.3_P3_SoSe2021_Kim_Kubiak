@@ -8,7 +8,7 @@ Seaborn. Mit der Seaborn Library ist es möglich statistische Grafiken in Python
 
 ## 3. Eine Fehlermeldung und ihre Lösung
 Um das Publikationsjahr von einer Publikation einzugeben habe ich die Publikations "item1" genannt und wollte dann an die Zeile "pubdate" kommen. Dafür habe ich item1["pubdate:"] eingegeben. Dabei kam folgende Fehlermeldung bei mir raus:
----------------------------------------------------------------------------
+---
 KeyError                                  Traceback (most recent call last)
 ~\anaconda3\lib\site-packages\pandas\core\indexes\base.py in get_loc(self, key, method, tolerance)
    2894             try:
@@ -46,9 +46,11 @@ KeyError                                  Traceback (most recent call last)
    2899         if tolerance is not None:
 
 KeyError: 'pubdate:'
+---
+Das wird wohl daher kommen, da die Daten und Informationen nicht in columns und rows eingetragen sind, sondern alle zusammen, deswegen kann man nicht einfach nach einem keyword filtern.
 
 ## 4. Was ist JupyterLab?
-blank
+Jupyter Lab ist eine interaktive Arbeitsumgebung, um mit Jupyter Notebooks zu arbeiten. Man kann mit diesem Programm aber auch auf das Terminal zugreifen und der Explorer ist sichtbar, wo man dann die genaue Umgebung der Dateien sieht. Dadurch, dass man das Terminal der Powershell auch doch Jupyter Lab öffnen kann und darin das Terminal an den Rand verschieben kann, kann man seine Dateien bearbeiten und diese dann direkt durch die Shell nach Github committen und pushen, ohne dass man nochmal extra eine Anwendung öffnen muss. Man kann mit Jupyter Lab auch andere Formate öffnen, wie zum Beispiel Bildformate .gif, .jpg, .png. Aber auch andere häufig benutzte Formate für Dokumente, nämlich .pdf. Wie eingangs schon erwähnt kann mit mit Jupyter Lab auch problemlos an den Jupyter Notebooks arbeiten, nur das Jupyter Lab noch diese zusätzlichen Funktionen hat.
 
 ## 5. Was ist der große Unterschied zwischen den Webframeworks flask und Django
 blank
