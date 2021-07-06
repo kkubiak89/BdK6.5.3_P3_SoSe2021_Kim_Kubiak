@@ -47,7 +47,7 @@ KeyError                                  Traceback (most recent call last)
 
 KeyError: 'pubdate:'
 
-Das wird wohl daher kommen, da die Daten und Informationen nicht in columns und rows eingetragen sind, sondern alle zusammen, deswegen kann man nicht einfach nach einem keyword filtern.
+Ich habe erst später verstanden, dass die Informationen nochmal in eigene dictionaries eingetragen wurden und dass die Ansicht deswegen so seltsam war. Das wurde jetzt wieder behoben, Titel und Datum können jetzt ausgegeben und angezeigt werden. Leider sind die Funktionen wieder für jede PubMed ID einzeln benannt, da das mit den for loops nicht so geklappt hat, wie ich mir das vorgestellt habe. Ich habe es trotzdem mal hochgeladen, damit man sehen kann, wo es ungefähr gehangen hat.
 
 
 ## 4. Was ist JupyterLab?
