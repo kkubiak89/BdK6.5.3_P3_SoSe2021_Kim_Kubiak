@@ -29,4 +29,5 @@ Die Idee der App war, dass man als Bibliothek eine Seite hat, auf der man die In
 
 ## Links
 [DoesTheDogDie](https://www.doesthedogdie.com/)
+
 [Onlinekatalog der Stadtbibliothek Duisburg]( https://sb-duisburg.lmscloud.net/)
