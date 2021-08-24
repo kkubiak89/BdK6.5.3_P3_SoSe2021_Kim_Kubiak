@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+        <title>Content Warning Check</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+{% include 'navbar.html' %}
+<h1>Sexual aussault / Sexuelle Gewalt:</h1>
+<p><ul>{% for series in sexual_assault %}
+    <li><a href='/series/{{ series }}'>{{ series }}</a></li>
+{% endfor %}</ul></p>
+</body>
+</html>
